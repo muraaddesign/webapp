@@ -21,6 +21,7 @@ gem 'koala', '~> 2.2'
 
 # OAuth2 server
 gem 'doorkeeper'
+gem "doorkeeper-grants_assertion", github: "Inittec/doorkeeper-grants_assertion", branch: "master"
 
 # API development
 gem 'grape', '~> 0.16.2'
