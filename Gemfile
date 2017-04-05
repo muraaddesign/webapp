@@ -19,6 +19,9 @@ gem 'google_contacts_api'
 gem 'fb_graph2'
 gem 'koala', '~> 2.2'
 
+# Checkout
+gem "piggybak"
+
 # OAuth2 server
 gem 'doorkeeper'
 gem "doorkeeper-grants_assertion", github: "Inittec/doorkeeper-grants_assertion", branch: "master"
