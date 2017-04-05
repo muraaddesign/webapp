@@ -6,16 +6,51 @@
 
 # Ignore bundler config.
 /.bundle
+.DS_Store
 
-# Ignore the default SQLite database.
+# Ignore the default databases.
 /db/*.sqlite3
 /db/*.sqlite3-journal
+dump.rdb
 
 # Ignore all logfiles and tempfiles.
 /log/*
-/tmp/*
 !/log/.keep
-!/tmp/.keep
+/tmp
+.DS_Store
 
-# Ignore Byebug command history file.
-.byebug_history
+# Ignore Database configs
+config/database.yml
+config/secrets.yml
+
+# Ignore Vagrant
+.vagrant
+
+# Ignore Tests & Reports
+.rspec
+/spec/reports/*.*
+coverage
+
+# Ignore environment files
+.env
+.env.*
+
+# Messaging config
+config.yml
+
+# Rubocop
+.rubocop_todo.yml
+
+# Ignore file uploads
+/public/system/*
+
+# Ignore precompiled assets
+
+# Config.yml
+/config.yml
+
+# AWS config
+config/aws.yml
+
+# Ignore Admin reports
+/*.pdf
